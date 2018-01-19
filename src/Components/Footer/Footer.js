@@ -8,6 +8,7 @@ class Footer extends Component {
                 <div class="footer-copyright">
                     <div class="container center">
                         <span> Made entirely from scratch by Brendan Bormann. © 2018</span>
+                        <a onClick={() => window.open('https://github.com/Pooks-in-Boots/portfolio-v2', '_blank')}> GitHub Repo</a>
                     </div>
                 </div>
             </footer>
