@@ -1,0 +1,15 @@
+.resume-container {
+    background-color: rgb(103, 120, 207);
+    color: white;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.resume-list {
+    text-align: center;
+}
+
+.resume-link {
+    color: rgb(31, 206, 197);
+}

@@ -1,0 +1,49 @@
+.navbar {
+    padding-top: .5%;
+    background-color: rgb(131, 82, 143);
+    color: white;
+}
+
+.sub-nav {
+    background-color: rgb(141, 92, 153);
+    color: white;
+}
+
+.head {
+    text-align: center;
+    padding: .5% 0% .5% 0%;
+}
+
+.App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 60px;
+    margin: 3px auto;
+    vertical-align: middle;
+}
+
+.title {
+    margin: 3px auto;
+    font-size: 45pt;
+    vertical-align: middle;
+    font-family: 'Roboto Slab', serif;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nav-center ul {
+    text-align: center;
+}
+.nav-center ul li {
+    display: inline;
+    float: none;
+}
+.nav-center ul li a {
+    display: inline-block;
+}

@@ -1,0 +1,28 @@
+.main-container {
+    background-color: #ba68c8 ;
+    color: white;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.main-title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.main-img {
+    float: left;
+    border-radius: 10px;
+    display: block;
+    width: 40%;
+    margin: 0% 2.5% 2.5% 0%;
+}
+
+.main-text {
+    color: white;
+    font-size: 15pt;
+    text-align: left;
+    line-height: 1.5;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+}

@@ -1,0 +1,22 @@
+.projects-container {
+    background-color: rgb(78, 163, 75);
+    color: white;
+    align-items: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.projects-list {
+    text-align: center;
+}
+
+.project-title {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    font-size: 16pt;
+}
+
+.underline {
+    text-decoration: underline;
+}

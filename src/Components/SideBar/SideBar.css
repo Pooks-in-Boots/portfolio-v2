@@ -1,0 +1,24 @@
+.sidebar-container {
+    background-color: rgb(190, 190, 190);
+    color: white;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.sidebar-title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.social-img {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-color: white;
+    height: 128px;
+    width: 128px;
+}
+
+.side-text {
+    margin-bottom: -5px;
+    font-size: 15pt;
+}
