@@ -4,6 +4,7 @@
     align-items: center;
     padding: 30px;
     border-radius: 10px;
+    margin: 2.5%;
 }
 
 .projects-list {
@@ -19,4 +20,8 @@
 
 .underline {
     text-decoration: underline;
+}
+
+.green {
+    margin: 1% auto;
 }

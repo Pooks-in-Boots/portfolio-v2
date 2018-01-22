@@ -2133,7 +2133,7 @@ For more information see [Add Firebase to your JavaScript Project](https://fireb
 Open your `package.json` and add a `homepage` field for your project:
 
 ```json
-  "homepage": "https://myusername.github.io/my-app",
+  "homepage": "https://pooks-in-boots.github.io/portfolio-v2/",
 ```
 
 or for a GitHub user page:

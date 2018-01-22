@@ -4,6 +4,7 @@
     align-items: center;
     padding: 30px;
     border-radius: 10px;
+    margin: 2.5%;
 }
 
 .resume-list {
@@ -12,4 +13,10 @@
 
 .resume-link {
     color: rgb(31, 206, 197);
+}
+
+@media only screen and (max-width: 767px) {
+    .resume-title {
+        font-size: 1.25em;
+    }
 }

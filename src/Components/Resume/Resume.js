@@ -20,9 +20,9 @@ class Resume extends Component {
 				</p>
                 <hr />
                 <div className="row">
-                    <div className="col s1"></div>
-                    <div className="col s5">
-                        <h4 className="main-title center">Languages & Technologies</h4>
+                    <div className="col s0 m1"></div>
+                    <div className="col s5 m5">
+                        <h4 className="main-title resume-title center">Languages & Technologies</h4>
                         <ul className="resume-list">
                             <li>JavaScript</li>
                             <li>Node</li>
@@ -34,8 +34,8 @@ class Resume extends Component {
                             <li>And more...</li>
                         </ul>
                     </div>
-                    <div className="col s5">
-                        <h4 className="main-title center">Frameworks & Packages</h4>
+                    <div className="col s5 m5">
+                        <h4 className="main-title resume-title center">Frameworks & Packages</h4>
                         <ul className="resume-list">
                             <li>React</li>
                             <li>Express</li>
@@ -47,7 +47,7 @@ class Resume extends Component {
                             <li>And more...</li>
                         </ul>
                     </div>
-                    <div className="col s1"></div>
+                    <div className="col s0 m1"></div>
                 </div>
 			</div>
 		);

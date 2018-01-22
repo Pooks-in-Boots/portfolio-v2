@@ -14,13 +14,13 @@ class Contact extends Component {
                     If you would like to talk more, or have questions regarding my experience, please contact me.
                     Additionaly, if you have any comments, questions, or concerns, I would love to hear from you.
                     Below is a form which is directly linked with my email address.
-                    Please include a method in which I return
+                    Please include an email, so I can get back to you!
 				</p>
                 <br />
                 <br />
                 <hr />
                 <br />
-                <div className="row">
+                <div className="row contact-box">
                     <div className="col s2"></div>
                     <div className="col s8">
                         <form action="https://formspree.io/brendan.bormann@gmail.com" method="POST">

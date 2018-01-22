@@ -57,14 +57,14 @@ class App extends Component {
 			<div>
 				<Navbar pageChanger={this.stateChanger} />
 				<div className="row">
-					<div className="col m1 l1"></div>
-					<div className="col m7 l7">
+					<div className="col s0 m1 l1"></div>
+					<div className="col s12 m7 l7">
 						{this.pageChanger()}
 					</div>
-					<div className="col m3 l3">
+					<div className="col s12 m3 l3">
 						<SideBar />
 					</div>
-					<div className="col m1 l1"></div>
+					<div className="col s0 m1 l1"></div>
 				</div>
 				<br />
 				<br />

@@ -47,3 +47,10 @@
 .nav-center ul li a {
     display: inline-block;
 }
+
+.button-collapse {
+    color: white;
+    display: block !important;
+    margin: 0 auto;
+    text-align: center;
+}

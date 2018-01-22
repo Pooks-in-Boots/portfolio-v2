@@ -33,7 +33,6 @@ class Projects extends Component {
                                     A group project designed to help us and our classmates to review our lessons, and take notes to keep track of concepts covered in class.
                                 </p>
                                 <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://afternoon-tor-12706.herokuapp.com/', '_blank')}>Check it out</a>
-                                <span> </span>
                                 <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/JaronGallo/Octothorpe_v2', '_blank')}>GitHub Repo</a>
                             </li>
                             <br />

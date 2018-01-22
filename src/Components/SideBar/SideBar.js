@@ -7,7 +7,7 @@ import stackoverflow from '../../Images/stackoverflow-128.png';
 class SideBar extends Component {
 	render() {
 		return (
-			<div className="center sidebar-container">
+			<div className="center sidebar-container z-depth-3">
 				<h2 className="sidebar-title">Social Links</h2>
 				<hr />
 				<div className="sidebar-links">

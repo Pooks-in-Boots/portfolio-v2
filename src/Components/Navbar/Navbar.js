@@ -33,7 +33,24 @@ class Navbar extends Component {
 						</div>
 
 						<div className="col s2"></div>
-						</nav>
+					</nav>
+					<ul id="slide-out" class="side-nav">
+						<li>
+							<div class="user-view">
+								<div class="background">
+									<img src="https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" />
+								</div>
+								<span class="white-text name">Brendan Bormann</span>
+								<span class="white-text email">brendan.bormann@gmail.com</span>
+							</div>
+						</li>
+						<li><a onClick={() => this.props.pageChanger('Home')}><i class="material-icons">home</i>Home</a></li>
+						<li><a onClick={() => this.props.pageChanger('Resume')}><i class="material-icons">layers</i>Resume</a></li>
+						<li><a onClick={() => this.props.pageChanger('Projects')}><i class="material-icons">computer</i>Projects</a></li>
+						<li><a onClick={() => this.props.pageChanger('Contact')}><i class="material-icons">comment</i>Contact</a></li>
+					</ul>
+					<a data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
 				</div>
 			</div>
 		);

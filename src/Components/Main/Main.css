@@ -4,6 +4,7 @@
     align-items: center;
     padding: 30px;
     border-radius: 10px;
+    margin: 2.5%;
 }
 
 .main-title {
@@ -25,4 +26,20 @@
     line-height: 1.5;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
+}
+
+.button-collapse {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .main-img {
+        display: none;
+    }
+    .main-text {
+        text-align: justify;
+    }
+    .button-collapse {
+        display: block;
+    }
 }

@@ -4,4 +4,20 @@
     align-items: center;
     padding: 30px;
     border-radius: 10px;
+    margin: 2.5%;
+}
+
+.contact-box {
+    display: block;
+    margin: 0px 10%;
+    background-color: rgb(143, 102, 84);
+    padding: 10px;
+    border: solid white 1.5px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-box {
+        margin: 0 auto;
+    }
 }
