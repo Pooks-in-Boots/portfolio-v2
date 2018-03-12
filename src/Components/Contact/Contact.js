@@ -13,11 +13,11 @@ class Contact extends Component {
 				<hr />
 				<br />
                 <p className="main-text">
-                    I appreicate your time spent reading about me, my projects, and my passion.
-                    If you would like to talk more, or have questions regarding my experience, please contact me.
-                    Additionaly, if you have any comments, questions, or concerns, I would love to hear from you.
-                    Below is a form which is directly linked with my email address.
-                    Please include an email, so I can get back to you!
+                I appreciate your time spent reading about me, my projects, and my passion.
+                If you would like to talk more, or have questions regarding my experience, please contact me.
+                Additionally, if you have any comments, questions, or concerns, I would love to hear from you.
+                Below is a form which is directly linked with my email address.
+                Please include an email, so I can get back to you!
 				</p>
                 <br />
                 <br />

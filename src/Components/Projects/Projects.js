@@ -19,7 +19,7 @@ class Projects extends Component {
                     I have done several projects as a learning experience.
                     These experiences are used to practice the concept behind these technologies and allow me to fully understand the depth and uses of them.
                     <br />
-                    I've included several projects, included with links and breif descriptions of their functionality.
+                    I've included several projects, included with links and brief descriptions of their functionality.
                 </p>
                 <br />
                 <hr />
