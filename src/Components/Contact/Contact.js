@@ -9,7 +9,10 @@ class Contact extends Component {
                 <hr />
                 <br />
 				<img className="main-img" src="https://images.pexels.com/photos/211290/pexels-photo-211290.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="code" />
-				<p className="main-text">
+				<br />
+				<hr />
+				<br />
+                <p className="main-text">
                     I appreicate your time spent reading about me, my projects, and my passion.
                     If you would like to talk more, or have questions regarding my experience, please contact me.
                     Additionaly, if you have any comments, questions, or concerns, I would love to hear from you.

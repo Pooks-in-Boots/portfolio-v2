@@ -12,11 +12,11 @@
 }
 
 .main-img {
-    float: left;
     border-radius: 10px;
-    display: block;
-    width: 40%;
-    margin: 0% 2.5% 2.5% 0%;
+    width: 100%;
+    position: relative;
+    top: 0%;
+    right: 0%;
 }
 
 .main-text {
@@ -29,7 +29,7 @@
 }
 
 .button-collapse {
-    display: none;
+    display: none !important;
 }
 
 @media only screen and (max-width: 767px) {
@@ -40,6 +40,6 @@
         text-align: justify;
     }
     .button-collapse {
-        display: block;
+        display: block !important;
     }
 }

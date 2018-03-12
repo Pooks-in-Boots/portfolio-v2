@@ -9,7 +9,10 @@ class Resume extends Component {
                 <hr />
                 <br />
 				<img className="main-img" src="https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="code" />
-				<p className="main-text">
+				<br />
+				<hr />
+				<br />
+                <p className="main-text">
                     I have learned many different languages and frameworks.
                     My most refined skills are with JavaScript, using Express and React.
                     I am most passionate about the backend development, but I enjoy working on a full-stack level.
@@ -18,6 +21,7 @@ class Resume extends Component {
                     I've always been passionate about problem solving, and have a natural talent for logic, and logical systems.
                     <a className="resume-link" onClick={() => window.open('https://www.codewars.com/users/Pooks', '_blank')}>This site</a> allows me to compete with others and refine my abilies.
 				</p>
+                <br />
                 <hr />
                 <div className="row">
                     <div className="col s0 m1"></div>

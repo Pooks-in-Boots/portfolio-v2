@@ -13,7 +13,7 @@ class Navbar extends Component {
 
 						<div className="col s10 head">
 							<span className="title">Brendan</span>
-							<img src={logo} className="App-logo"></img>
+							<img src={logo} className="App-logo" alt="logo"></img>
 							<span className="title">Bormann</span>
 						</div>
 
@@ -34,22 +34,22 @@ class Navbar extends Component {
 
 						<div className="col s2"></div>
 					</nav>
-					<ul id="slide-out" class="side-nav">
+					<ul id="slide-out" className="side-nav">
 						<li>
-							<div class="user-view">
-								<div class="background">
-									<img src="https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" />
+							<div className="user-view">
+								<div className="background">
+									<img src="https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img" />
 								</div>
-								<span class="white-text name">Brendan Bormann</span>
-								<span class="white-text email">brendan.bormann@gmail.com</span>
+								<span className="white-text name">Brendan Bormann</span>
+								<span className="white-text email">brendan.bormann@gmail.com</span>
 							</div>
 						</li>
-						<li><a onClick={() => this.props.pageChanger('Home')}><i class="material-icons">home</i>Home</a></li>
-						<li><a onClick={() => this.props.pageChanger('Resume')}><i class="material-icons">layers</i>Resume</a></li>
-						<li><a onClick={() => this.props.pageChanger('Projects')}><i class="material-icons">computer</i>Projects</a></li>
-						<li><a onClick={() => this.props.pageChanger('Contact')}><i class="material-icons">comment</i>Contact</a></li>
+						<li><a onClick={() => this.props.pageChanger('Home')}><i className="material-icons">home</i>Home</a></li>
+						<li><a onClick={() => this.props.pageChanger('Resume')}><i className="material-icons">layers</i>Resume</a></li>
+						<li><a onClick={() => this.props.pageChanger('Projects')}><i className="material-icons">computer</i>Projects</a></li>
+						<li><a onClick={() => this.props.pageChanger('Contact')}><i className="material-icons">comment</i>Contact</a></li>
 					</ul>
-					<a data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+					<a data-activates="slide-out" className="button-collapse"><i className="material-icons">menu</i></a>
 
 				</div>
 			</div>

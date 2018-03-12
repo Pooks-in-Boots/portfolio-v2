@@ -9,6 +9,9 @@ class Projects extends Component {
                 <hr />
                 <br />
                 <img className="main-img" src="https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="code" />
+                <br />
+				<hr />
+				<br />
                 <p className="main-text">
                     Throughout my time as a web developer, I have created several sites, and applications.
                     I've used many different languages, frameworks, and technologies.
@@ -18,6 +21,7 @@ class Projects extends Component {
                     <br />
                     I've included several projects, included with links and breif descriptions of their functionality.
                 </p>
+                <br />
                 <hr />
                 <div className="row">
                     <div className="col s2"></div>
@@ -33,6 +37,7 @@ class Projects extends Component {
                                     A group project designed to help us and our classmates to review our lessons, and take notes to keep track of concepts covered in class.
                                 </p>
                                 <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://afternoon-tor-12706.herokuapp.com/', '_blank')}>Check it out</a>
+                                <span> </span>
                                 <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/JaronGallo/Octothorpe_v2', '_blank')}>GitHub Repo</a>
                             </li>
                             <br />

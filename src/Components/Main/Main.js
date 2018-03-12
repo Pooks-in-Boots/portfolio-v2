@@ -7,8 +7,11 @@ class Main extends Component {
 			<div className="main-container z-depth-3">
 				<h2 className="main-title center">Welcome!</h2>
 				<hr />
-                <br />
+				<br />
 					<img className="main-img" src="https://images.pexels.com/photos/287748/pexels-photo-287748.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="lightbulb" />
+				<br />
+				<hr />
+				<br />
 				<p className="main-text">
 				Hello, and welcome! My name is Brendan Bormann.
 				I am an avid web developer. I am passionate about programming and coding, and looking to put my skills to good use.
@@ -21,6 +24,7 @@ class Main extends Component {
 				<br />
 				<hr />
 				<p className="main-text">
+				<br />
 				Currently, in my free time, I am working on practicing deep-learning with python.
 				It's an area I am very intertested in, and have decieded to learn on my own time.
 				It's a difficult area, but I have taken it upon myself to learn and practice my skills with it.
