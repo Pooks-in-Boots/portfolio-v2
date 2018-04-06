@@ -1,7 +1,14 @@
 {
-  "main.css": "static/css/main.21946d81.css",
-  "main.css.map": "static/css/main.21946d81.css.map",
-  "main.js": "static/js/main.7315f7ec.js",
-  "main.js.map": "static/js/main.7315f7ec.js.map",
-  "static\\media\\logo.svg": "static/media/logo.5fbe8c9d.svg"
+  "main.css": "static/css/main.99a731bb.css",
+  "main.css.map": "static/css/main.99a731bb.css.map",
+  "main.js": "static/js/main.dba14e76.js",
+  "main.js.map": "static/js/main.dba14e76.js.map",
+  "static\\media\\codewars.png": "static/media/codewars.ebd61dd5.png",
+  "static\\media\\contact.jpeg": "static/media/contact.d457587c.jpeg",
+  "static\\media\\javascript.png": "static/media/javascript.1c0ea70f.png",
+  "static\\media\\js.jpg": "static/media/js.4cc999f4.jpg",
+  "static\\media\\mongo.png": "static/media/mongo.4f2e531c.png",
+  "static\\media\\projects.png": "static/media/projects.d9c57e75.png",
+  "static\\media\\python.png": "static/media/python.ca2ceddc.png",
+  "static\\media\\universe.png": "static/media/universe.abb76da4.png"
 }
