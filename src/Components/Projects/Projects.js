@@ -1,26 +1,30 @@
 import React, { Component } from 'react';
 import './Projects.css';
+import projects from '../../Images/projects.png';
 
 class Projects extends Component {
     render() {
         return (
-            <div className="projects-container z-depth-3">
+            <div className="projects-container z-depth-3 animated fadeIn">
                 <h2 className="main-title center">My Projects</h2>
-                <hr />
-                <br />
-                <img className="main-img" src="https://images.pexels.com/photos/7096/people-woman-coffee-meeting.jpg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="code" />
                 <br />
 				<hr />
 				<br />
                 <p className="main-text">
-                    Throughout my time as a web developer, I have created several sites, and applications.
-                    I've used many different languages, frameworks, and technologies.
-                    My goal with these sites, is to learn from others work, and create new and innovative solutions to simple problems.
-                    I have done several projects as a learning experience.
-                    These experiences are used to practice the concept behind these technologies and allow me to fully understand the depth and uses of them.
+                    Throughout my time creating and maintaining projects, I've learned quite a bit!
+                    I've tried building many different applications, and have used many different technologies.
+                    I really enjoy learning by experience, and building an application that I am proud of.
+                    I have slowed down on my projects as my free time has been reduced, but that doesn't mean I'm slacking!
+                    <br />
+                    <br />
+                    Anyway, below is a collection of some of my projects, but feel free to browse my github and check out the code.
+                    Bare in mind, that some of my projects has not aged well, and I cannot keep up with so many!
                     <br />
                     I've included several projects, included with links and brief descriptions of their functionality.
                 </p>
+                <hr />
+                <br />
+                <img className="main-img" src={projects} alt="projects" />
                 <br />
                 <hr />
                 <div className="row">
@@ -28,6 +32,19 @@ class Projects extends Component {
                     <div className="col s8">
                         <h4 className="main-title center">Project List</h4>
                         <ul className="projects-list">
+                            <hr />
+                            <li>
+                                <h5 className="project-title">
+                                    Python MasterMind
+                                </h5>
+                                <p>
+                                    A quick and easy game I made in an afternoon. I made it practice python, but my friends and I ended up really enjoying this game.
+                                </p>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://repl.it/repls/CavernousCriminalSampler', '_blank')}>Check it out</a>
+                                <span> </span>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/Pooks-in-Boots/python-mastermind', '_blank')}>GitHub Repo</a>
+                            </li>
+                            <br />
                             <hr />
                             <li>
                                 <h5 className="project-title">

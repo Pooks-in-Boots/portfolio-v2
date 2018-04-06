@@ -1,11 +1,11 @@
 .navbar {
     padding-top: .5%;
-    background-color: rgb(131, 82, 143);
+    background-color: #3a3a3a;
     color: white;
 }
 
 .sub-nav {
-    background-color: rgb(141, 92, 153);
+    background-color: #3a3a3a;
     color: white;
 }
 
@@ -15,7 +15,7 @@
 }
 
 .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 8s linear;
     height: 60px;
     margin: 3px auto;
     vertical-align: middle;

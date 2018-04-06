@@ -1,5 +1,5 @@
 .contact-container {
-    background-color: rgb(173, 124, 102);
+    background-color: #3a3a3a;
     color: white;
     align-items: center;
     padding: 30px;
@@ -10,10 +10,30 @@
 .contact-box {
     display: block;
     margin: 0px 10%;
-    background-color: rgb(163, 114, 92);
+    background-color: #4e4e4e;
     padding: 10px;
-    border: solid white 1.5px;
+    border: solid white 2px;
     border-radius: 10px;
+}
+
+::-webkit-input-placeholder {
+    font-size: 25px;
+    color: white;
+}
+
+ :-moz-placeholder { /* Firefox 18- */
+    font-size: 25px;
+    color: white;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+    font-size: 25px;
+    color: white;
+}
+
+:-ms-input-placeholder {
+    font-size: 25px;
+    color: white;
 }
 
 @media only screen and (max-width: 768px) {

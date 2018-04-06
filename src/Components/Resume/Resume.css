@@ -1,5 +1,5 @@
 .resume-container {
-    background-color: rgb(103, 120, 207);
+    background-color: #3a3a3a;
     color: white;
     align-items: center;
     padding: 30px;
@@ -9,10 +9,16 @@
 
 .resume-list {
     text-align: center;
+    font-size: 15pt;
 }
 
 .resume-link {
     color: rgb(31, 206, 197);
+}
+
+.code-wars {
+    display: block;
+    margin: auto;
 }
 
 @media only screen and (max-width: 767px) {

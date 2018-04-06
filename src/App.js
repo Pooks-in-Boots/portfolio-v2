@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Main from './Components/Main/Main';
-import SideBar from './Components/SideBar/SideBar';
 import Resume from './Components/Resume/Resume';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
@@ -57,14 +56,11 @@ class App extends Component {
 			<div>
 				<Navbar pageChanger={this.stateChanger} />
 				<div className="row">
-					<div className="col s0 m1 l1"></div>
-					<div className="col s12 m7 l7">
+					<div className="col s0 m2 l2"></div>
+					<div className="col s12 m8 l8">
 						{this.pageChanger()}
 					</div>
-					<div className="col s12 m3 l3">
-						<SideBar />
-					</div>
-					<div className="col s0 m1 l1"></div>
+					<div className="col s0 m2 l2"></div>
 				</div>
 				<br />
 				<br />

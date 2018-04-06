@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../../logo.svg';
+import logo from '../../logo.png';
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -12,9 +12,9 @@ class Navbar extends Component {
 						<div className="col s1"></div>
 
 						<div className="col s10 head">
-							<span className="title">Brendan</span>
+							<span className="title animated fadeIn">Brendan</span>
 							<img src={logo} className="App-logo" alt="logo"></img>
-							<span className="title">Bormann</span>
+							<span className="title animated fadeIn">Bormann</span>
 						</div>
 
 						<div className="col s1"></div>
@@ -38,7 +38,7 @@ class Navbar extends Component {
 						<li>
 							<div className="user-view">
 								<div className="background">
-									<img src="https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="img" />
+									<img src="https://images.pexels.com/photos/235985/pexels-photo-235985.jpeg?w=1260&h=750&auto=compress&cs=tinysrgb" alt="background" />
 								</div>
 								<span className="white-text name">Brendan Bormann</span>
 								<span className="white-text email">brendan.bormann@gmail.com</span>

@@ -1,0 +1,12 @@
+.tech-card {
+    float: left;
+    width: 31%;
+    margin: 5px 1%;
+    border-radius: 10pt;
+}
+
+.tech-card-img {
+    border-radius: 10pt;
+    margin: 0 auto;
+    width: 100%;
+}

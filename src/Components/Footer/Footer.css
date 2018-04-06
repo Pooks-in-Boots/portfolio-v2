@@ -1,3 +1,40 @@
 .page-footer {
-    background-color: rgb(131, 82, 143);
+    background-color: #3a3a3a;
+}
+
+.footer-container {
+    margin: 0 5.5%;
+}
+
+.footer-title {
+    font-family: 'Roboto Slab', serif;
+}
+
+.social-img {
+    border: 5px solid white;
+    border-radius: 25px;
+    background-color: white;
+    height: 128px;
+    width: 128px;
+}
+
+.social-text {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.social {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 10pt;
+    font-weight: bolder;
+    margin: 15px;
+}
+
+.footer-link {
+    margin-left: 5px;
 }

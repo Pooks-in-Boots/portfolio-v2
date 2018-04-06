@@ -1,5 +1,5 @@
 .main-container {
-    background-color: #ba68c8 ;
+    background-color: #3a3a3a ;
     color: white;
     align-items: center;
     padding: 30px;
@@ -12,17 +12,18 @@
 }
 
 .main-img {
-    border-radius: 10px;
+    border-radius: 20px;
     width: 100%;
     position: relative;
     top: 0%;
     right: 0%;
+    margin: 0px 0px 15px 0px;
 }
 
 .main-text {
     color: white;
     font-size: 15pt;
-    text-align: left;
+    text-align: justify;
     line-height: 1.5;
     -webkit-margin-before: 0em;
     -webkit-margin-after: 0em;
@@ -33,9 +34,6 @@
 }
 
 @media only screen and (max-width: 767px) {
-    .main-img {
-        display: none;
-    }
     .main-text {
         text-align: justify;
     }
