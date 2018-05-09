@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.1",
   "private": true,
-  "homepage": "brendanbormann.com",
+  "homepage": "./",
   "dependencies": {
     "gh-pages": "^1.1.0",
     "react": "^16.2.0",
