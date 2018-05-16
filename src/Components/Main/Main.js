@@ -11,11 +11,18 @@ class Main extends Component {
 				<hr />
 				<br />
 				<p className="main-text">
-				Hello, and welcome! My name is Brendan Bormann.
-				I am an avid web developer, and very passionate about programming. Currently, I'm helping teach others to program.
+				Hello! My name is Brendan Bormann.
+				<br />
+				<br />
+				I am an avid web developer, and I am very passionate about programming. Currently, I'm helping teach others to program.
 				I am well versed in working with both front-end and back-end technologies, making me an excellent full-stack developer.
-				I am actively practicing and refining my skill set, and I am always looking to learn new and more efficient practices.
-				I'm currently seeking a new opportunity to put my skills to the test, so please feel free to contact me!
+				I am an excellent developer with a focus on Node JS. I work mostly on back-end, on routing and servers.
+				I'm currently seeking a new opportunity to put my skills to the test, so please feel free to contact me! Contact info can be found on the contact tab.
+				<br />
+				<br />
+				I'm a very laid back person, who is very creative and clever. My biggest selling point is my quick wit! I'm also very
+				sociable, and I've found that it's very rare for me to not get along with anyone. I believe many people
+				would vouch for me on that.
 				</p>
 				<hr />
 				<br />
@@ -24,9 +31,13 @@ class Main extends Component {
 				<hr />
 				<br />
 				<p className="main-text">
-				Currently, in my free time, I am self-learning and practicing python.
-				It's a language I find very interesting, and a door towards a field I am very interested in, machine learning.
-				It may be a challenging area of programming, but I am determined to reach my goal and write my own learning programs.
+				Currently, in my free time, I am delving deeply into Node and working on creating a database system called ThunderDB.
+				I am very interested in Node and the deeper mechanics of servers, thread pools, server clustering, benchmarking, and the event loop.
+				I strive to one day work exclusively with Node, and I hope to one day contribute my own code into Node.
+				<br />
+				<br />
+				I also spend my free time learning python. I mainly use it for fun, creating bots for various purposes and making simple games.
+				I have a lot of fun programming in my own time on personal projects. Programming is very rewarding!
 				</p>
 			</div>
 		);

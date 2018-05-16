@@ -11,14 +11,15 @@ class Projects extends Component {
 				<hr />
 				<br />
                 <p className="main-text">
-                    Throughout my time creating and maintaining projects, I've learned quite a bit!
-                    I've tried building many different applications, and have used many different technologies.
+                    As a web developer, I've worked on many, many projects. I have tons of code on my GitHub, and even more on my compter!
+                    I've worked with many people, and have learned a lot on my path to where I am today.
+                    Currently, I'm working on a few private projects which I can't share here, so please excuse my lack of recent work.
+                    I have been trying to spend some free time working on rebuilding and cleaning up old projects, but I still have a lot to go.
                     I really enjoy learning by experience, and building an application that I am proud of.
-                    I have slowed down on my projects as my free time has been reduced, but that doesn't mean I'm slacking!
                     <br />
                     <br />
-                    Anyway, below is a collection of some of my projects, but feel free to browse my github and check out the code.
-                    Bare in mind, that some of my projects has not aged well, and I cannot keep up with so many!
+                    Below is a collection of some of my projects, but feel free to browse my github and check out the code, along with many other projects!
+                    Bare in mind, that some of my projects have not aged well, and I can't keep up with many of them!
                     <br />
                     I've included several projects, included with links and brief descriptions of their functionality.
                 </p>
@@ -35,27 +36,27 @@ class Projects extends Component {
                             <hr />
                             <li>
                                 <h5 className="project-title">
-                                    Python MasterMind
+                                    Friend Finder
                                 </h5>
                                 <p>
-                                    A quick and easy game I made in an afternoon. I made it practice python, but my friends and I ended up really enjoying this game.
+                                    This project was made to demonstrate the popular dating applications. It allows the user to fill out a breif survey and find a friend with similar tastes. It uses a MySQL database to maintain and track users.
                                 </p>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://repl.it/repls/CavernousCriminalSampler', '_blank')}>Check it out</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://frozen-journey-42144.herokuapp.com/', '_blank')}>Check it out</a>
                                 <span> </span>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/Pooks-in-Boots/python-mastermind', '_blank')}>GitHub Repo</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/Pooks-in-Boots/FriendFinder', '_blank')}>GitHub Repo</a>
                             </li>
                             <br />
                             <hr />
                             <li>
                                 <h5 className="project-title">
-                                    Project Octothorpe
+                                    Burger Tracker
                                 </h5>
                                 <p>
-                                    A group project designed to help us and our classmates to review our lessons, and take notes to keep track of concepts covered in class.
+                                    A simple app made to use MongoDB to track and maintain your diet. This mirrors an actually dietary application, to serve as a learning experience as to what goes into such a program.
                                 </p>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://afternoon-tor-12706.herokuapp.com/', '_blank')}>Check it out</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://pacific-river-48040.herokuapp.com/', '_blank')}>Check it out</a>
                                 <span> </span>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/JaronGallo/Octothorpe_v2', '_blank')}>GitHub Repo</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/Pooks-in-Boots/Burger', '_blank')}>GitHub Repo</a>
                             </li>
                             <br />
                             <hr />
@@ -73,31 +74,29 @@ class Projects extends Component {
                             </li>
                             <br />
                             <hr />
-
                             <li>
                                 <h5 className="project-title">
-                                    Burger Tracker
+                                    Project Octothorpe
                                 </h5>
                                 <p>
-                                    A simple app made to use MongoDB to track and maintain your diet. This mirrors an actually dietary application, to serve as a learning experience as to what goes into such a program.
+                                    A group project designed to help us and our classmates to review our lessons, and take notes to keep track of concepts covered in class.
                                 </p>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://pacific-river-48040.herokuapp.com/', '_blank')}>Check it out</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://afternoon-tor-12706.herokuapp.com/', '_blank')}>Check it out</a>
                                 <span> </span>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/Pooks-in-Boots/Burger', '_blank')}>GitHub Repo</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/JaronGallo/Octothorpe_v2', '_blank')}>GitHub Repo</a>
                             </li>
                             <br />
                             <hr />
-
                             <li>
                                 <h5 className="project-title">
-                                    Friend Finder
+                                    Python MasterMind
                                 </h5>
                                 <p>
-                                    This project was made to demonstrate the popular dating applications. It allows the user to fill out a breif survey and find a friend with similar tastes. It uses a MySQL database to maintain and track users.
+                                    A quick and easy game I made in an afternoon. I made it practice python, but my friends and I ended up really enjoying this game.
                                 </p>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://frozen-journey-42144.herokuapp.com/', '_blank')}>Check it out</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://repl.it/repls/CavernousCriminalSampler', '_blank')}>Check it out</a>
                                 <span> </span>
-                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/Pooks-in-Boots/FriendFinder', '_blank')}>GitHub Repo</a>
+                                <a className="green lighten-1 waves-effect waves-light btn" onClick={() => window.open('https://github.com/Pooks-in-Boots/python-mastermind', '_blank')}>GitHub Repo</a>
                             </li>
                             <br />
                             <hr />
